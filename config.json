@@ -1,0 +1,12 @@
+{
+	"URLs": [
+		{
+			"alias": "CCI855793",
+			"scene": "../CCI855793/1.3mx"
+		},
+		{
+			"alias": "CO-VER-T-USCO5061",
+			"scene": "http://192.168.1.115/3d/Scene2/Production_2.3mx"
+		}
+	]
+}

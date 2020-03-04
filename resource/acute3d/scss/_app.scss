@@ -1,0 +1,286 @@
+/*No 3D*/
+#canvas2D {
+  @include transform(translate3d(0,0,0));
+  background-color:white;
+  overflow:hidden;
+}
+#busyContainer {
+  width: 100%;
+  height: 100%;
+}
+
+#errorContainer{
+  width: 100%;
+  height: 100%;
+  background-color:#000000;//#4e4e50
+}
+/*
+Use z-index and position != static (default) to order objects on top of 
+*/
+.no3DLabel{  
+  position:relative;
+  font-size:rem(18);
+  text-align:justify;
+  vertical-align: middle;
+  @include border-radius(0.4em);
+  box-shadow: 2px 2px 3px 0px #444444;
+  border:1px solid #888888;
+  padding:4px;
+  min-height: rem(40);
+  background-color: white;
+  width: 90%;
+  z-index: 10;
+}
+.no3DImage{
+  position:absolute;
+  left: rem(0);
+  top: rem(0);
+  right: rem(0);
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 1;
+}
+.waiting-indicator{
+  position:relative;
+  z-index: 10;
+  border: 0px;
+}
+.button-play{
+  position:relative;
+  background-color:transparent;
+  border:0px solid !important;
+  border-radius: 50%;
+  width: rem(100) !important;
+  height: rem(100) !important;
+  padding:0px;
+  z-index: 10;
+}
+/* Canvas */
+#canvasMap {
+  @include transform(translate3d(0,0,0));
+  background-color:white;
+  overflow:hidden;
+}
+
+#canvasMap * {
+  -ms-touch-action: none;
+}
+
+#canvasMap > div {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+}
+
+/* Logo */
+#logoMenu {
+  position:absolute;  
+  bottom: rem(20);
+  left: rem(20);
+  background-color: transparent;
+  border:0px;
+  width: 45%;
+}
+
+#logoCourtesyOfMenu {
+  position:absolute;  
+  bottom: rem(20);
+  right: rem(20);
+  background-color: transparent;
+  border:0px;
+  width: 45%;
+}
+/* Info*/
+.info-popup {
+  padding:rem(4);  
+  color: #ffffff;  
+}
+.help-html {
+	width: 100%;
+	height: 100%;
+}
+.error-scroll { 
+  width: 100%;
+  min-height: rem(100);
+  max-height: 50%;
+  z-index: 10;
+}
+/******Console messages */
+.isa_info, .isa_success, .isa_warning, .isa_error {
+margin: 10px 0px;
+padding:12px;
+text-align: left;
+}
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.isa_error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+.isa_info i, .isa_success i, .isa_warning i, .isa_error i {
+    margin:10px 22px;
+    font-size:2em;
+    vertical-align:middle;
+}
+/********/
+.top-left-scroll {
+  position:absolute !important;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  min-height: rem(100);
+  max-height: 50%;
+  background-color: rgba(76,76,76,0.9);   
+  z-index: 10;
+}
+.top-right-window {
+  position:absolute !important;
+  top: 0px;
+  right: 0px;
+  background-color: rgba(76,76,76,0.9); 
+  color: #ffffff;
+}
+.bottom-right-window {
+  position:absolute !important;
+  bottom: 0px;
+  right: 0px;
+  background-color: rgba(76,76,76,0.9);   
+  color: #ffffff;
+  z-index: 2;
+}
+/* Toolbar & Menu */
+#bottomLeftMenu {
+  position:absolute;
+  bottom: 35px;
+  left: 0px;
+
+  background-color: rgba(76,76,76,0.9);
+
+  width: rem(150);
+  height: auto;
+  color: #333333;
+}
+
+#topRightMenu {
+  position:absolute;
+  top: 0px;
+  right: 0px;
+
+  background-color: rgba(76,76,76,0.9);
+  
+  width: rem(205);
+  color: #333333;
+}
+
+#topRightMenu .group.bordered {
+  background-color:transparent !important;
+  padding:0px;
+  border:0px;
+}
+.container-menu{
+  width: 100%;
+  padding:0px;
+  border:0px;  
+}
+
+.hline-menu { width:100%; height:1px; background: #888888 }
+.button-toggle{
+  background-color:transparent;
+  border:0px;
+  padding:5px;
+  width: rem(28);
+  max-width: rem(28);
+  height: auto;
+  font-weight: bold;
+}
+.button-arrow {
+  padding:0px;
+  border:0px;
+  width: rem(24);
+  height: auto;
+  background-color:transparent;
+  vertical-align: middle;
+}
+.button-menu {
+  padding:0px;  
+  border:0px;
+  width: auto;
+  height: rem(28);
+  background-color:transparent;
+  color: #ffffff;
+  vertical-align: middle;
+}
+.button-menu-level1 {
+  padding-left:rem(4);
+}
+.button-menu-level2 {
+  padding-left:rem(38);
+}
+.button-active {
+  background-color: rgba(98,187,70,1.0); 
+}
+.popup-label {
+  padding:rem(4);
+  border:0px; 
+  width: rem(80);  
+}
+.popup-text {
+  width: 80%;
+  padding:rem(4); 
+}
+.measure-text{
+  padding:0px;
+  border:0px;
+  height: rem(25);
+}
+.measure-label {
+  padding:rem(0);
+  border:0px; 
+  width: rem(80); 
+  text-align:left;
+  vertical-align: middle;  
+}
+.measure-icon{
+  padding-left:rem(4);
+  padding-right:rem(0);
+  width: rem(28);
+}
+.measures {
+  /*min-height: rem(35);
+  height: rem(35);
+  max-height: rem(35);*/
+  padding:0px; 
+  border:0px; 
+}
+/* Mouse */
+.zoom_mode{
+ cursor: s-resize;
+}
+.pointer_mode{
+ cursor: pointer;
+}
+.grab_mode {
+ cursor: pointer;
+ cursor: -webkit-grab;  
+ cursor:-moz-grab;
+}
+.grabbing_mode {
+ cursor: pointer;
+ cursor: -webkit-grabbing;  
+ cursor:-moz-grabbing;
+}
+/*image cursors: cursor: url(cursors/grab.gif),url(cursors/grab.cur),pointer; */
+/*Works only in IE*/
+/*Use RealWorldCursor editor to create .cur*/
