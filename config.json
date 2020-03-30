@@ -11,6 +11,46 @@
 		{
 			"alias": "CO-INS-T-CO703",
 			"scene": "../CO-INS-T-CO703/1.3mx"
+		},
+		{
+			"alias": "822467-TEAM1",
+			"scene": "../822467-TEAM1/1.3mx"
+		},
+		{
+			"alias": "ATC302422-HOMETEAM",
+			"scene": "../ATC302422-HOMETEAM/1.3mx"
+		},
+		{
+			"alias": "ATC30298-TEAM2",
+			"scene": "../ATC30298-TEAM2/1.3mx"
+		},
+		{
+			"alias": "ECO-0046",
+			"scene": "../ECO-0046/1.3mx"
+		},
+		{
+			"alias": "ATC-82094",
+			"scene": "../ATC-82094/1.3mx"
+		},
+		{
+			"alias": "CCI-823933",
+			"scene": "../CCI-823933/1.3mx"
+		},
+		{
+			"alias": "CCI-802475",
+			"scene": "../CCI-802475/1.3mx"
+		},
+		{
+			"alias": "CCI-876999",
+			"scene": "../CCI-876999/1.3mx"
+		},
+		{
+			"alias": "CCI-302402",
+			"scene": "../CCI-302402/1.3mx"
+		},
+		{
+			"alias": "CCI-876994",
+			"scene": "../CCI-876994/1.3mx"
 		}
 	]
 }
