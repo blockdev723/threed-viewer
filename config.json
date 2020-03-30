@@ -51,6 +51,98 @@
 		{
 			"alias": "CCI-876994",
 			"scene": "../CCI-876994/1.3mx"
+		},
+		{
+			"alias": "CO-ATC-T-414683",
+			"scene": "../CO-ATC-T-414683/1.3mx"
+		},
+		{
+			"alias": "ATC-82110",
+			"scene": "../ATC-82110/1.3mx"
+		},
+		{
+			"alias": "CO-ATC-82094_122",
+			"scene": "../CO-ATC-82094_122/1.3mx"
+		},
+		{
+			"alias": "CO-ATC-411230_47",
+			"scene": "../CO-ATC-411230_47/1.3mx"
+		},
+		{
+			"alias": "CO-CCI-T-824514_48",
+			"scene": "../CO-CCI-T-824514_48/1.3mx"
+		},
+		{
+			"alias": "CCI-855774",
+			"scene": "../CCI-855774/1.3mx"
+		},
+		{
+			"alias": "CO-CCI-T-824817_1_295",
+			"scene": "../CO-CCI-T-824817_1_295/1.3mx"
+		},
+		{
+			"alias": "CO-CCI-T-823933_56_1_217",
+			"scene": "../CO-CCI-T-823933_56_1_217/1.3mx"
+		},
+		{
+			"alias": "CO-T-DIA-T-CO006_80",
+			"scene": "../CO-T-DIA-T-CO006_80/1.3mx"
+		},
+		{
+			"alias": "CO-CCI-T-855786",
+			"scene": "../CO-CCI-T-855786/1.3mx"
+		},
+		{
+			"alias": "CO-CCI-T-855800",
+			"scene": "../CO-CCI-T-855800/1.3mx"
+		},
+		{
+			"alias": "CO-CCI-T-302402",
+			"scene": "../CO-CCI-T-302402/1.3mx"
+		},
+		{
+			"alias": "CO-CCI-T-876994__1-158",
+			"scene": "../CO-CCI-T-876994__1-158/1.3mx"
+		},
+		{
+			"alias": "CO-DIA-T-CO004_34",
+			"scene": "../CO-DIA-T-CO004_34/1.3mx"
+		},
+		{
+			"alias": "CO-ECO-T-0046-41",
+			"scene": "../CO-ECO-T-0046-41/1.3mx"
+		},
+		{
+			"alias": "CO-CCI-T-823933_56_632_847",
+			"scene": "../CO-CCI-T-823933_56_632_847/1.3mx"
+		},
+		{
+			"alias": "CCI-855766",
+			"scene": "../CCI-855766/1.3mx"
+		},
+		{
+			"alias": "CO-CCI-T-876999",
+			"scene": "../CO-CCI-T-876999/1.3mx"
+		},
+		{
+			"alias": "CO-CCI-T-855786_145",
+			"scene": "../CO-CCI-T-855786_145/1.3mx"
+		},
+		{
+			"alias": "CO-CCI-T-877006",
+			"scene": "../CO-CCI-T-877006/1.3mx"
+		},
+		{
+			"alias": "CO-ATC-T-414683_45",
+			"scene": "../CO-ATC-T-414683_45/1.3mx"
+		},
+		{
+			"alias": "CO-CCI-T-876994_921",
+			"scene": "../CO-CCI-T-876994_921/1.3mx"
+		},
+		{
+			"alias": "CO-CCI-T-824817",
+			"scene": "../CO-CCI-T-824817/1.3mx"
 		}
 	]
 }
